@@ -1,0 +1,42 @@
+Test Case 1: Login Success
+
+- Test Name: Login Success
+- Test Case ID: BMA-TC-001
+- Description: Verify successful login with valid credentials
+- References: User Story: BMA-001, Design Spec: BMA-Login-001
+- Prerequisites: Valid username and password
+- Test Setup: App version: 1.0, OS: iOS 14+
+- Test Steps:
+    1. Launch app
+    2. Enter valid username and password
+    3. Click login
+- Expected Results: User is logged in successfully and redirected to dashboard
+
+Test Case 2: Login Failure
+
+- Test Name: Login Failure
+- Test Case ID: BMA-TC-002
+- Description: Verify error message for invalid login credentials
+- References: User Story: BMA-001, Design Spec: BMA-Login-001
+- Prerequisites: Invalid username or password
+- Test Setup: App version: 1.0, OS: iOS 14+
+- Test Steps:
+    1. Launch app
+    2. Enter invalid username or password
+    3. Click login
+- Expected Results: Error message is displayed correctly
+
+Test Case 3: Fund Transfer
+
+- Test Name: Fund Transfer
+- Test Case ID: BMA-TC-003
+- Description: Verify successful fund transfer
+- References: User Story: BMA-002, Design Spec: BMA-Transfer-001
+- Prerequisites: Sufficient balance, valid recipient account
+- Test Setup: App version: 1.0, OS: iOS 14+, Date and Time: Any
+- Test Steps:
+    1. Launch app
+    2. Navigate to transfer screen
+    3. Enter recipient account details and amount
+    4. Click transfer
+- Expected Results: Funds are transferred successfully, and transaction is reflected in transaction history
